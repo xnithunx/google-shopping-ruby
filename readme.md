@@ -1,4 +1,4 @@
-# JavaScript Functions
+# Ruby Functions
 
 Using the google shoping data used before (also included in this repository) create some useful functions to answer the following questions.
 
@@ -7,8 +7,8 @@ Using the google shoping data used before (also included in this repository) cre
 ## Getting Started
 
 * Fork and clone this repository
-* Start creating functions in `js/google_shopping_functions.js`
-* Run your functions in `script.js` 
+* Start creating functions in `ruby/google_shopping_functions.rb`
+* Run your functions in `script.rb`
 
 ## Deliverables
 
@@ -52,7 +52,7 @@ Create function called `getAvailableProducts` that takes an item array and retur
 
 ## 5.) Use your functions
 
-Use the functions you created in 1 - 5 to ouput (console.log) the following lists of items.
+Use the functions you created in 1 - 5 to ouput (`puts`) the following lists of items.
 
 * All items made by Sony.
 * All items made by Sony that are available.
@@ -63,7 +63,7 @@ Use the functions you created in 1 - 5 to ouput (console.log) the following list
 
 ** Example Function Usage**
 
-```js
+```ruby
 
 //verbose -- outputs all cannon products
 var items = getItems(data);
@@ -74,10 +74,6 @@ console.log(cannonItems);
 console.log(getItemsByBrand(getItems(data), 'Cannon'));
 ```
 
-
-## Bonus
-
-Create another search function and/or think of other interesting ways to combine the functions to perform useful searches.
 
 ---
 
