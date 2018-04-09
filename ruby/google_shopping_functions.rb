@@ -7,9 +7,19 @@ def get_items_count( item_data )
   item_data.size
 end
 
+require 'byebug'
+require 'json'
+require 'pp'
+
+file = File.read('products.json')
+data = JSON.parse(file)
+
+pp data
+
+# use byebug to set a breakpoint
+#byebug
+
 # Define and use your functions here
-
-
 
 # output item count using the getItemsCount function
 puts "Item Count: #{get_items_count( data )}"

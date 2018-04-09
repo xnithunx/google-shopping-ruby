@@ -8,7 +8,8 @@ Using the google shoping data used before (also included in this repository) cre
 
 * Fork and clone this repository
 * Start creating functions in `ruby/google_shopping_functions.rb`
-* Run your functions in `script.rb`
+* This starter code already gets and parses the JSON file for you.
+* write `byebug` on a line of your code to get a breakpoint
 
 ## Deliverables
 
