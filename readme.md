@@ -53,7 +53,7 @@ Create function called `getAvailableProducts` that takes an item array and retur
 
 ## 5.) Use your functions
 
-Use the functions you created in 1 - 5 to ouput (`puts`) the following lists of items.
+Use the functions you created in 1 - 4 to ouput (`puts`) the following lists of items.
 
 * All items made by Sony.
 * All items made by Sony that are available.
@@ -67,12 +67,12 @@ Use the functions you created in 1 - 5 to ouput (`puts`) the following lists of 
 ```ruby
 
 //verbose -- outputs all cannon products
-var items = getItems(data);
-var cannonItems = getItemsByBrand(items, 'Cannon');
-console.log(cannonItems);
+items = getItems(data)
+cannonItems = getItemsByBrand(items, 'Cannon')
+puts cannonItems
 
 //single line version -- does the same as above
-console.log(getItemsByBrand(getItems(data), 'Cannon'));
+puts getItemsByBrand(getItems(data), 'Cannon')
 ```
 
 
