@@ -74,7 +74,23 @@ puts cannonItems
 //single line version -- does the same as above
 puts getItemsByBrand(getItems(data), 'Cannon')
 ```
-
+## Further
+After you have gotten your json hash, write some functions that uses these different enumerable methods, if you can.
+```
+all?
+any?
+each_with_index
+find
+find_all
+find_index
+map
+reduce
+reject
+select
+sort_by
+take
+uniq
+```
 
 ---
 
