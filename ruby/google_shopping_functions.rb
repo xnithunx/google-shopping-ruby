@@ -1,3 +1,12 @@
+require 'byebug'
+require 'json'
+require 'pp'
+
+file = File.read('products.json')
+data = JSON.parse(file, {:symbolize_names => true})
+
+pp data
+
 # example function called get_items_count
 # input: accepts full item data
 # output: returns the length of the items array
@@ -6,15 +15,6 @@ def get_items_count( item_data )
 
   item_data.size
 end
-
-require 'byebug'
-require 'json'
-require 'pp'
-
-file = File.read('products.json')
-data = JSON.parse(file)
-
-pp data
 
 # use byebug to set a breakpoint
 #byebug
